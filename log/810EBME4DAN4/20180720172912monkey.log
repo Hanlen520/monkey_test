@@ -1,0 +1,1472 @@
+:Monkey: seed=470 count=1000
+:AllowPackage: com.jieshun.jslife
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   + Using main activity com.jieshun.jslife.activity.common.WelcomeActivity (from package com.jieshun.jslife)
+// Selecting main activities from category android.intent.category.MONKEY
+// Seeded: 470
+// Event percentages:
+//   0: 80.0%
+//   1: 5.0%
+//   2: 0.0%
+//   3: 5.0%
+//   4: -0.0%
+//   5: 0.0%
+//   6: 0.0%
+//   7: 5.0%
+//   8: 5.0%
+//   9: 0.0%
+//   10: 0.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(335.0,1833.0)
+:Sending Touch (ACTION_UP): 0:(324.05533,1825.2179)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(925.0,1112.0)
+:Sending Touch (ACTION_UP): 0:(921.0164,1107.98)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(748.0,352.0)
+:Sending Touch (ACTION_UP): 0:(747.74457,352.1835)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(37.0,796.0)
+:Sending Touch (ACTION_UP): 0:(27.574097,803.16034)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(18.0,262.0)
+:Sending Touch (ACTION_UP): 0:(15.378268,262.43207)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(494.0,1062.0)
+:Sending Touch (ACTION_UP): 0:(501.46738,1061.4656)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(906.0,140.0)
+:Sending Touch (ACTION_UP): 0:(891.84845,144.27953)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(511.0,1906.0)
+:Sending Touch (ACTION_UP): 0:(514.1324,1909.7781)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(349.0,309.0)
+:Sending Touch (ACTION_UP): 0:(352.18716,311.6538)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(550.0,1916.0)
+:Sending Touch (ACTION_UP): 0:(537.26697,1906.1381)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(880.0,201.0)
+:Sending Touch (ACTION_UP): 0:(883.8667,203.64397)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(142.0,553.0)
+:Sending Touch (ACTION_UP): 0:(141.8466,546.6622)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(912.0,1918.0)
+:Sending Touch (ACTION_UP): 0:(914.7224,1906.2576)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(115.0,899.0)
+:Sending Touch (ACTION_MOVE): 0:(95.56718,907.60474)
+:Sending Touch (ACTION_MOVE): 0:(77.285545,911.55743)
+:Sending Touch (ACTION_MOVE): 0:(72.11096,914.2018)
+:Sending Touch (ACTION_UP): 0:(52.286533,921.0253)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(277.0,1441.0)
+:Sending Touch (ACTION_UP): 0:(299.11353,1446.6766)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(482.0,595.0)
+:Sending Touch (ACTION_UP): 0:(490.93466,584.157)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(0.0,1595.0)
+:Sending Touch (ACTION_UP): 0:(0.0,1599.9572)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(75.0,380.0)
+:Sending Touch (ACTION_UP): 0:(82.6189,392.4753)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(820.0,1625.0)
+:Sending Touch (ACTION_UP): 0:(821.65045,1624.4893)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(554.0,1084.0)
+:Sending Touch (ACTION_UP): 0:(543.35034,1082.3135)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(43.0,556.0)
+:Sending Touch (ACTION_UP): 0:(41.27593,559.2299)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(803.0,1576.0)
+:Sending Touch (ACTION_UP): 0:(797.4421,1583.15)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(648.0,1678.0)
+:Sending Touch (ACTION_UP): 0:(648.97125,1662.1451)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(72.0,847.0)
+:Sending Touch (ACTION_UP): 0:(70.993065,837.5343)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(874.0,1184.0)
+:Sending Touch (ACTION_UP): 0:(856.1748,1193.7937)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(451.0,1045.0)
+:Sending Touch (ACTION_MOVE): 0:(466.8012,1047.3989)
+:Sending Touch (ACTION_MOVE): 0:(466.93454,1051.4015)
+:Sending Touch (ACTION_MOVE): 0:(479.37997,1063.7054)
+:Sending Touch (ACTION_UP): 0:(484.6425,1069.5304)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(672.0,421.0)
+:Sending Touch (ACTION_UP): 0:(666.9534,424.54672)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(732.0,1885.0)
+:Sending Touch (ACTION_UP): 0:(748.0566,1884.4601)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(944.0,72.0)
+:Sending Touch (ACTION_UP): 0:(944.6277,68.766624)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(669.0,1214.0)
+    //[calendar_time:2018-07-20 17:29:24.670  system_uptime:28503631]
+    // Sending event #100
+:Sending Touch (ACTION_UP): 0:(659.49854,1209.7036)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(77.0,1029.0)
+:Sending Touch (ACTION_UP): 0:(60.58895,1029.1177)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(270.0,1035.0)
+:Sending Touch (ACTION_UP): 0:(269.7723,1015.9202)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(379.0,1125.0)
+:Sending Touch (ACTION_UP): 0:(390.20602,1121.4934)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(293.0,800.0)
+:Sending Touch (ACTION_UP): 0:(294.73914,786.3059)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1021.0,1228.0)
+:Sending Touch (ACTION_UP): 0:(1023.48846,1217.5537)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1068.0,843.0)
+:Sending Touch (ACTION_UP): 0:(1060.9404,835.9257)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(521.0,1077.0)
+:Sending Touch (ACTION_UP): 0:(521.6494,1073.6067)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(762.0,1700.0)
+:Sending Touch (ACTION_UP): 0:(762.0952,1703.2394)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(901.0,1254.0)
+:Sending Touch (ACTION_UP): 0:(917.68036,1257.7491)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(819.0,119.0)
+:Sending Touch (ACTION_UP): 0:(805.29736,120.71807)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(328.0,595.0)
+:Sending Touch (ACTION_UP): 0:(345.0919,596.0728)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(705.0,98.0)
+:Sending Touch (ACTION_UP): 0:(691.43036,108.31497)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(207.0,1217.0)
+:Sending Touch (ACTION_UP): 0:(205.01176,1218.0243)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(118.0,731.0)
+:Sending Touch (ACTION_UP): 0:(117.273,714.7136)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(244.0,878.0)
+:Sending Touch (ACTION_UP): 0:(245.11313,863.7072)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(55.0,1464.0)
+:Sending Touch (ACTION_UP): 0:(55.78175,1464.1979)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(708.0,723.0)
+:Sending Touch (ACTION_UP): 0:(721.35376,722.6994)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(846.0,1170.0)
+:Sending Touch (ACTION_UP): 0:(846.20215,1164.9584)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(476.0,790.0)
+:Sending Touch (ACTION_UP): 0:(474.6363,793.86646)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(130.0,649.0)
+:Sending Touch (ACTION_UP): 0:(127.169106,650.14166)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(873.0,1449.0)
+:Sending Touch (ACTION_UP): 0:(881.1421,1455.1531)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(315.0,574.0)
+:Sending Touch (ACTION_UP): 0:(320.4757,568.7109)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(90.0,1674.0)
+:Sending Touch (ACTION_UP): 0:(82.68391,1689.0243)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(818.0,438.0)
+:Sending Touch (ACTION_UP): 0:(820.03845,438.145)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(926.0,351.0)
+:Sending Touch (ACTION_UP): 0:(915.28455,359.17645)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(589.0,458.0)
+:Sending Touch (ACTION_UP): 0:(578.3871,462.1681)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(599.0,1387.0)
+:Sending Touch (ACTION_UP): 0:(586.70306,1393.115)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(628.0,1362.0)
+:Sending Touch (ACTION_UP): 0:(631.23645,1364.1621)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(376.0,320.0)
+:Sending Touch (ACTION_UP): 0:(382.2626,322.73196)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(90.0,120.0)
+:Sending Touch (ACTION_UP): 0:(104.77712,131.74196)
+    // activityResuming(com.jieshun.jslife)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(858.0,212.0)
+:Sending Touch (ACTION_UP): 0:(856.5404,209.14813)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(873.0,867.0)
+:Sending Touch (ACTION_UP): 0:(885.326,859.2557)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=com.jieshun.jslife/com.jslife.mycoupon.MyCouponDetailActivity } in package com.jieshun.jslife
+:Sending Touch (ACTION_DOWN): 0:(185.0,1885.0)
+:Sending Touch (ACTION_UP): 0:(196.40486,1886.0259)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(689.0,1833.0)
+:Sending Touch (ACTION_UP): 0:(687.3679,1838.0247)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(94.0,1058.0)
+:Sending Touch (ACTION_UP): 0:(74.90817,1059.4867)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(372.0,303.0)
+:Sending Touch (ACTION_UP): 0:(371.945,289.52264)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(40.0,1769.0)
+:Sending Touch (ACTION_UP): 0:(38.16097,1773.308)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(98.0,286.0)
+:Sending Touch (ACTION_UP): 0:(97.70664,288.60437)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(336.0,556.0)
+:Sending Touch (ACTION_UP): 0:(342.94855,545.58276)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(550.0,785.0)
+:Sending Touch (ACTION_MOVE): 0:(535.3018,787.30835)
+:Sending Touch (ACTION_MOVE): 0:(522.0655,788.1986)
+:Sending Touch (ACTION_MOVE): 0:(506.9615,797.95483)
+:Sending Touch (ACTION_MOVE): 0:(491.53885,806.6792)
+:Sending Touch (ACTION_MOVE): 0:(482.07272,817.1289)
+:Sending Touch (ACTION_UP): 0:(475.93076,822.4276)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(733.0,862.0)
+:Sending Touch (ACTION_UP): 0:(733.0403,870.96295)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(691.0,1726.0)
+:Sending Touch (ACTION_UP): 0:(690.3225,1726.3829)
+    //[calendar_time:2018-07-20 17:29:39.564  system_uptime:28518417]
+    // Sending event #200
+Sleeping for 300 milliseconds
+    //[calendar_time:2018-07-20 17:29:39.866  system_uptime:28518719]
+    // Sending event #200
+:Sending Touch (ACTION_DOWN): 0:(239.0,607.0)
+:Sending Touch (ACTION_UP): 0:(235.15154,601.112)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(493.0,1424.0)
+:Sending Touch (ACTION_UP): 0:(491.4042,1424.4755)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(800.0,1341.0)
+:Sending Touch (ACTION_UP): 0:(803.0538,1340.8364)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1003.0,96.0)
+:Sending Touch (ACTION_UP): 0:(1003.9462,98.41677)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(737.0,1156.0)
+:Sending Touch (ACTION_UP): 0:(737.05743,1159.0919)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(974.0,1352.0)
+:Sending Touch (ACTION_UP): 0:(951.68286,1355.4033)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(104.0,932.0)
+:Sending Touch (ACTION_UP): 0:(104.036415,933.691)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(293.0,109.0)
+:Sending Touch (ACTION_UP): 0:(297.2536,110.82627)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(490.0,1592.0)
+:Sending Touch (ACTION_UP): 0:(480.215,1591.4132)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(209.0,527.0)
+:Sending Touch (ACTION_UP): 0:(194.88129,526.2232)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(749.0,234.0)
+:Sending Touch (ACTION_UP): 0:(757.1564,230.60345)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(952.0,335.0)
+:Sending Touch (ACTION_UP): 0:(949.4593,328.1404)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(940.0,297.0)
+:Sending Touch (ACTION_UP): 0:(936.42346,291.44226)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(805.0,384.0)
+:Sending Touch (ACTION_UP): 0:(796.6043,397.5026)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1075.0,1026.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,1023.11316)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(308.0,229.0)
+:Sending Touch (ACTION_UP): 0:(309.014,233.85014)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(55.0,831.0)
+:Sending Touch (ACTION_UP): 0:(44.503822,838.78406)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(136.0,634.0)
+:Sending Touch (ACTION_UP): 0:(136.28833,643.02454)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(113.0,521.0)
+:Sending Touch (ACTION_UP): 0:(110.27163,519.5838)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(792.0,1677.0)
+:Sending Touch (ACTION_UP): 0:(801.0444,1669.9044)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(998.0,69.0)
+:Sending Touch (ACTION_UP): 0:(999.86774,54.38096)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(288.0,96.0)
+:Sending Touch (ACTION_UP): 0:(278.99124,104.880325)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(101.0,478.0)
+:Sending Touch (ACTION_UP): 0:(110.43836,488.2105)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(532.0,1731.0)
+:Sending Touch (ACTION_UP): 0:(513.19165,1726.0118)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(3.0,186.0)
+:Sending Touch (ACTION_UP): 0:(0.0,183.31996)
+Sleeping for 300 milliseconds
+    // activityResuming(com.jieshun.jslife)
+:Sending Touch (ACTION_DOWN): 0:(362.0,536.0)
+:Sending Touch (ACTION_UP): 0:(345.7096,542.4593)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=com.jieshun.jslife/com.jslife.mycoupon.MyCouponDetailActivity } in package com.jieshun.jslife
+:Sending Touch (ACTION_DOWN): 0:(545.0,532.0)
+:Sending Touch (ACTION_UP): 0:(530.1672,520.60803)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(370.0,936.0)
+:Sending Touch (ACTION_UP): 0:(369.33115,939.1438)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(50.0,1187.0)
+:Sending Touch (ACTION_UP): 0:(53.39211,1189.1487)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(323.0,99.0)
+:Sending Touch (ACTION_UP): 0:(311.51047,86.78299)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(393.0,1669.0)
+:Sending Touch (ACTION_UP): 0:(381.70428,1668.742)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(677.0,1192.0)
+:Sending Touch (ACTION_UP): 0:(678.81226,1200.6866)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(463.0,1388.0)
+:Sending Touch (ACTION_UP): 0:(462.02206,1372.8762)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(372.0,1219.0)
+:Sending Touch (ACTION_UP): 0:(368.48587,1217.1451)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(307.0,515.0)
+:Sending Touch (ACTION_UP): 0:(322.30243,508.025)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(521.0,1102.0)
+:Sending Touch (ACTION_UP): 0:(520.5204,1118.4342)
+    //[calendar_time:2018-07-20 17:29:52.227  system_uptime:28531081]
+    // Sending event #300
+Sleeping for 300 milliseconds
+    //[calendar_time:2018-07-20 17:29:52.528  system_uptime:28531382]
+    // Sending event #300
+:Sending Touch (ACTION_DOWN): 0:(963.0,279.0)
+:Sending Touch (ACTION_UP): 0:(957.1549,280.02246)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(183.0,904.0)
+:Sending Touch (ACTION_UP): 0:(194.93364,904.2515)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(980.0,30.0)
+:Sending Touch (ACTION_UP): 0:(972.48584,30.39611)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(860.0,751.0)
+:Sending Touch (ACTION_UP): 0:(843.6542,755.10333)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(893.0,1216.0)
+:Sending Touch (ACTION_UP): 0:(893.65826,1219.8336)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(715.0,1622.0)
+:Sending Touch (ACTION_UP): 0:(701.0349,1635.9686)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(531.0,370.0)
+:Sending Touch (ACTION_UP): 0:(534.41394,353.14566)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(67.0,1319.0)
+:Sending Touch (ACTION_UP): 0:(66.84864,1318.4968)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(420.0,380.0)
+:Sending Touch (ACTION_UP): 0:(423.9939,389.94135)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(225.0,882.0)
+:Sending Touch (ACTION_UP): 0:(225.10132,885.8946)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(312.0,41.0)
+:Sending Touch (ACTION_UP): 0:(316.21024,60.090256)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(619.0,1341.0)
+:Sending Touch (ACTION_UP): 0:(617.97046,1344.425)
+Sleeping for 300 milliseconds
+    // activityResuming(com.jieshun.jslife)
+:Sending Touch (ACTION_DOWN): 0:(732.0,1236.0)
+:Sending Touch (ACTION_UP): 0:(734.51447,1227.0624)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1002.0,760.0)
+:Sending Touch (ACTION_UP): 0:(1004.49493,753.7338)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=com.jieshun.jslife/com.jslife.mycoupon.MyCouponDetailActivity } in package com.jieshun.jslife
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 300 milliseconds
+    // activityResuming(com.jieshun.jslife)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(319.0,1184.0)
+:Sending Touch (ACTION_UP): 0:(326.83923,1200.0698)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(183.0,201.0)
+:Sending Touch (ACTION_UP): 0:(170.54967,205.55533)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(446.0,1154.0)
+:Sending Touch (ACTION_UP): 0:(441.64886,1161.6385)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(299.0,479.0)
+:Sending Touch (ACTION_UP): 0:(298.5422,474.0814)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=com.jieshun.jslife/com.jslife.mycoupon.MyCouponDetailActivity } in package com.jieshun.jslife
+:Sending Touch (ACTION_DOWN): 0:(232.0,1649.0)
+:Sending Touch (ACTION_UP): 0:(210.71588,1643.9982)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(550.0,1509.0)
+:Sending Touch (ACTION_UP): 0:(553.349,1508.4089)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(345.0,1812.0)
+:Sending Touch (ACTION_MOVE): 0:(352.92792,1810.0325)
+:Sending Touch (ACTION_MOVE): 0:(356.2282,1803.4441)
+:Sending Touch (ACTION_MOVE): 0:(358.93915,1802.6158)
+:Sending Touch (ACTION_MOVE): 0:(361.6659,1798.2588)
+:Sending Touch (ACTION_MOVE): 0:(365.85117,1791.223)
+:Sending Touch (ACTION_UP): 0:(373.78217,1778.7058)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1044.0,753.0)
+:Sending Touch (ACTION_UP): 0:(1037.4563,746.9397)
+Sleeping for 300 milliseconds
+    // activityResuming(com.jieshun.jslife)
+:Sending Touch (ACTION_DOWN): 0:(412.0,1484.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(395.7028,1486.5905)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(666.0,421.0)
+:Sending Touch (ACTION_UP): 0:(656.9701,417.2497)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=com.jieshun.jslife/com.jslife.mycoupon.MyCouponDetailActivity } in package com.jieshun.jslife
+:Sending Touch (ACTION_DOWN): 0:(919.0,263.0)
+:Sending Touch (ACTION_UP): 0:(935.28894,265.8266)
+Sleeping for 300 milliseconds
+    // activityResuming(com.jieshun.jslife)
+:Sending Touch (ACTION_DOWN): 0:(590.0,1377.0)
+:Sending Touch (ACTION_UP): 0:(589.5444,1370.36)
+Sleeping for 300 milliseconds
+    // activityResuming(com.jieshun.jslife)
+:Sending Touch (ACTION_DOWN): 0:(858.0,524.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(843.764,524.6292)
+    // Injection Failed
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=com.jieshun.jslife/.activity.userinfo.UserInfoNewActivity } in package com.jieshun.jslife
+:Sending Touch (ACTION_DOWN): 0:(446.0,1211.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(446.66867,1207.933)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(372.0,1563.0)
+:Sending Touch (ACTION_UP): 0:(360.21918,1561.4625)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(992.0,581.0)
+:Sending Touch (ACTION_UP): 0:(994.9121,566.01965)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(637.0,1811.0)
+:Sending Touch (ACTION_UP): 0:(654.5577,1810.2384)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(621.0,975.0)
+:Sending Touch (ACTION_UP): 0:(628.5086,963.77686)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(338.0,725.0)
+:Sending Touch (ACTION_UP): 0:(344.4316,724.0529)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(263.0,725.0)
+:Sending Touch (ACTION_UP): 0:(252.94902,727.4696)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=com.jieshun.jslife/.activity.userinfo.SetUserNickNameActivity } in package com.jieshun.jslife
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+    //[calendar_time:2018-07-20 17:30:04.189  system_uptime:28543042]
+    // Sending event #400
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 300 milliseconds
+    // activityResuming(com.jieshun.jslife)
+    // activityResuming(com.jieshun.jslife)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(548.0,1103.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(538.5719,1102.5104)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(20.0,856.0)
+:Sending Touch (ACTION_UP): 0:(21.016222,852.27655)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(136.0,804.0)
+:Sending Touch (ACTION_UP): 0:(140.93048,802.1093)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=com.jieshun.jslife/.activity.userinfo.ConsumeRecordActivity } in package com.jieshun.jslife
+:Sending Touch (ACTION_DOWN): 0:(563.0,425.0)
+:Sending Touch (ACTION_UP): 0:(562.6789,425.78152)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(538.0,1159.0)
+:Sending Touch (ACTION_UP): 0:(532.527,1138.2445)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(976.0,1269.0)
+:Sending Touch (ACTION_UP): 0:(984.1653,1277.6708)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(734.0,85.0)
+:Sending Touch (ACTION_UP): 0:(749.47217,83.253876)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(663.0,1630.0)
+:Sending Touch (ACTION_UP): 0:(664.88055,1626.6958)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(213.0,347.0)
+:Sending Touch (ACTION_UP): 0:(210.94472,350.66464)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(647.0,641.0)
+:Sending Touch (ACTION_UP): 0:(646.8945,648.94403)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(562.0,1337.0)
+:Sending Touch (ACTION_UP): 0:(569.9267,1334.5759)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(777.0,1247.0)
+:Sending Touch (ACTION_UP): 0:(775.33014,1246.7277)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=com.jieshun.jslife/.activity.userinfo.ConsumeOrderDetailActivity } in package com.jieshun.jslife
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(462.0,1641.0)
+:Sending Touch (ACTION_MOVE): 0:(442.13358,1623.3374)
+:Sending Touch (ACTION_MOVE): 0:(424.51642,1618.1544)
+:Sending Touch (ACTION_MOVE): 0:(424.50934,1605.483)
+:Sending Touch (ACTION_MOVE): 0:(408.86963,1586.0281)
+:Sending Touch (ACTION_UP): 0:(404.99756,1568.3567)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(539.0,42.0)
+:Sending Touch (ACTION_UP): 0:(543.6357,41.39747)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(937.0,1748.0)
+:Sending Touch (ACTION_UP): 0:(934.0807,1748.1411)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(964.0,760.0)
+:Sending Touch (ACTION_UP): 0:(963.68054,763.18866)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(630.0,877.0)
+:Sending Touch (ACTION_UP): 0:(612.06213,873.1249)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(338.0,479.0)
+:Sending Touch (ACTION_UP): 0:(337.51648,478.4088)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(429.0,1114.0)
+:Sending Touch (ACTION_UP): 0:(425.74243,1124.4038)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(942.0,351.0)
+:Sending Touch (ACTION_UP): 0:(931.6972,346.09503)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(384.0,1440.0)
+:Sending Touch (ACTION_UP): 0:(383.44437,1442.4231)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(498.0,1224.0)
+:Sending Touch (ACTION_UP): 0:(489.63504,1214.8903)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(640.0,910.0)
+:Sending Touch (ACTION_UP): 0:(640.2332,912.93353)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(881.0,711.0)
+:Sending Touch (ACTION_UP): 0:(882.99475,703.09357)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(929.0,417.0)
+:Sending Touch (ACTION_UP): 0:(928.73804,416.66238)
+    //[calendar_time:2018-07-20 17:30:13.312  system_uptime:28552165]
+    // Sending event #500
+Sleeping for 300 milliseconds
+    //[calendar_time:2018-07-20 17:30:13.612  system_uptime:28552466]
+    // Sending event #500
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(899.0,847.0)
+:Sending Touch (ACTION_UP): 0:(914.11926,854.46075)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(599.0,1400.0)
+:Sending Touch (ACTION_UP): 0:(590.4964,1408.1221)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(812.0,351.0)
+:Sending Touch (ACTION_UP): 0:(829.5783,333.4843)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(351.0,645.0)
+:Sending Touch (ACTION_UP): 0:(342.31738,650.3598)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(693.0,1760.0)
+:Sending Touch (ACTION_MOVE): 0:(695.94147,1763.4076)
+:Sending Touch (ACTION_MOVE): 0:(697.61127,1764.466)
+:Sending Touch (ACTION_MOVE): 0:(717.1154,1766.2009)
+:Sending Touch (ACTION_MOVE): 0:(732.36975,1766.8397)
+:Sending Touch (ACTION_MOVE): 0:(740.7946,1769.2684)
+:Sending Touch (ACTION_MOVE): 0:(744.85596,1771.6165)
+:Sending Touch (ACTION_MOVE): 0:(749.5851,1773.4386)
+:Sending Touch (ACTION_MOVE): 0:(756.8304,1779.1533)
+:Sending Touch (ACTION_MOVE): 0:(776.5366,1780.6344)
+:Sending Touch (ACTION_UP): 0:(793.33453,1787.5289)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(257.0,762.0)
+:Sending Touch (ACTION_UP): 0:(264.51166,759.5112)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(172.0,1385.0)
+:Sending Touch (ACTION_UP): 0:(171.14708,1384.9875)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(161.0,929.0)
+:Sending Touch (ACTION_UP): 0:(169.55061,941.7183)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(679.0,1003.0)
+:Sending Touch (ACTION_UP): 0:(681.76624,1007.5924)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(290.0,845.0)
+:Sending Touch (ACTION_UP): 0:(289.64444,835.86676)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1072.0,447.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,446.48724)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(288.0,1224.0)
+:Sending Touch (ACTION_UP): 0:(301.09213,1207.8817)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(667.0,726.0)
+:Sending Touch (ACTION_UP): 0:(673.2439,725.0621)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(652.0,1103.0)
+:Sending Touch (ACTION_UP): 0:(648.30444,1095.1605)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(648.0,1350.0)
+:Sending Touch (ACTION_UP): 0:(629.36676,1351.4016)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(779.0,1462.0)
+:Sending Touch (ACTION_UP): 0:(783.57996,1453.6984)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(596.0,842.0)
+:Sending Touch (ACTION_UP): 0:(593.13885,848.2522)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(738.0,1350.0)
+:Sending Touch (ACTION_UP): 0:(716.1281,1361.4172)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(430.0,1785.0)
+:Sending Touch (ACTION_UP): 0:(436.0851,1780.9232)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(218.0,995.0)
+:Sending Touch (ACTION_UP): 0:(207.53835,990.7679)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(120.0,490.0)
+:Sending Touch (ACTION_UP): 0:(127.97286,489.4967)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1032.0,178.0)
+:Sending Touch (ACTION_UP): 0:(1013.23145,176.38159)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 300 milliseconds
+    // activityResuming(com.jieshun.jslife)
+:Sending Touch (ACTION_DOWN): 0:(1060.0,905.0)
+:Sending Touch (ACTION_UP): 0:(1058.1455,905.1212)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=com.jieshun.jslife/.activity.userinfo.ConsumeOrderDetailActivity } in package com.jieshun.jslife
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(775.0,556.0)
+:Sending Touch (ACTION_UP): 0:(778.1922,563.2396)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(914.0,1813.0)
+:Sending Touch (ACTION_UP): 0:(907.1636,1813.7089)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(266.0,1808.0)
+:Sending Touch (ACTION_UP): 0:(265.8783,1801.8114)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(588.0,1387.0)
+:Sending Touch (ACTION_UP): 0:(587.7862,1389.9666)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(492.0,1897.0)
+:Sending Touch (ACTION_UP): 0:(490.84268,1899.8239)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(523.0,756.0)
+    //[calendar_time:2018-07-20 17:30:25.693  system_uptime:28564546]
+    // Sending event #600
+:Sending Touch (ACTION_UP): 0:(525.0755,750.4731)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(213.0,197.0)
+:Sending Touch (ACTION_UP): 0:(211.47354,184.17336)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(384.0,134.0)
+:Sending Touch (ACTION_UP): 0:(389.18985,133.97906)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(927.0,401.0)
+:Sending Touch (ACTION_UP): 0:(926.2807,399.0893)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(926.0,1473.0)
+:Sending Touch (ACTION_UP): 0:(921.0009,1468.2456)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(614.0,632.0)
+:Sending Touch (ACTION_MOVE): 0:(615.62335,635.29095)
+:Sending Touch (ACTION_MOVE): 0:(627.9203,655.341)
+:Sending Touch (ACTION_UP): 0:(650.39197,658.581)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(849.0,518.0)
+:Sending Touch (ACTION_UP): 0:(859.8805,510.08786)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(675.0,411.0)
+:Sending Touch (ACTION_MOVE): 0:(674.27124,406.8415)
+:Sending Touch (ACTION_MOVE): 0:(674.08624,404.60205)
+:Sending Touch (ACTION_MOVE): 0:(666.05426,403.26416)
+:Sending Touch (ACTION_MOVE): 0:(654.02875,381.4895)
+:Sending Touch (ACTION_MOVE): 0:(653.16547,362.51346)
+:Sending Touch (ACTION_MOVE): 0:(640.4515,352.09964)
+:Sending Touch (ACTION_MOVE): 0:(627.47455,339.75565)
+:Sending Touch (ACTION_MOVE): 0:(616.6846,322.61945)
+:Sending Touch (ACTION_MOVE): 0:(614.41693,303.83386)
+:Sending Touch (ACTION_UP): 0:(601.7479,290.71954)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(822.0,88.0)
+:Sending Touch (ACTION_UP): 0:(828.3471,82.05572)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(423.0,1891.0)
+:Sending Touch (ACTION_UP): 0:(431.50775,1890.5189)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(441.0,1894.0)
+:Sending Touch (ACTION_UP): 0:(446.4632,1879.6655)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(401.0,1376.0)
+:Sending Touch (ACTION_UP): 0:(399.49435,1385.763)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(244.0,1283.0)
+:Sending Touch (ACTION_UP): 0:(253.61871,1282.1445)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(157.0,819.0)
+:Sending Touch (ACTION_UP): 0:(158.40982,815.6359)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(2.0,1117.0)
+:Sending Touch (ACTION_UP): 0:(0.0,1115.5961)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(158.0,101.0)
+:Sending Touch (ACTION_UP): 0:(165.43376,106.56174)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(791.0,43.0)
+:Sending Touch (ACTION_UP): 0:(779.5441,61.507515)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(510.0,824.0)
+:Sending Touch (ACTION_UP): 0:(526.2477,823.3551)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(757.0,1858.0)
+:Sending Touch (ACTION_UP): 0:(747.26953,1859.7839)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(164.0,163.0)
+:Sending Touch (ACTION_UP): 0:(161.67827,164.42303)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(769.0,1128.0)
+:Sending Touch (ACTION_UP): 0:(769.8707,1129.8313)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(655.0,1846.0)
+:Sending Touch (ACTION_UP): 0:(659.77704,1850.2031)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(891.0,20.0)
+:Sending Touch (ACTION_UP): 0:(890.2726,20.019619)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(683.0,38.0)
+:Sending Touch (ACTION_UP): 0:(683.8044,37.771084)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(911.0,525.0)
+:Sending Touch (ACTION_UP): 0:(910.3852,514.6159)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(36.0,1299.0)
+:Sending Touch (ACTION_UP): 0:(35.12843,1307.875)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(776.0,647.0)
+:Sending Touch (ACTION_UP): 0:(771.4582,665.34503)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(414.0,1676.0)
+:Sending Touch (ACTION_UP): 0:(411.56094,1670.3965)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+    //[calendar_time:2018-07-20 17:30:36.442  system_uptime:28575295]
+    // Sending event #700
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(205.0,450.0)
+:Sending Touch (ACTION_UP): 0:(192.10004,446.57504)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(179.0,1318.0)
+:Sending Touch (ACTION_UP): 0:(178.25636,1322.803)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(346.0,168.0)
+:Sending Touch (ACTION_UP): 0:(350.15128,169.26701)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(79.0,616.0)
+:Sending Touch (ACTION_UP): 0:(83.3742,622.79205)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(69.0,1423.0)
+:Sending Touch (ACTION_UP): 0:(74.66639,1422.5093)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(447.0,898.0)
+:Sending Touch (ACTION_UP): 0:(449.53485,895.69434)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(965.0,122.0)
+:Sending Touch (ACTION_UP): 0:(968.0387,124.89675)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(381.0,934.0)
+:Sending Touch (ACTION_UP): 0:(378.8422,924.0025)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(405.0,1512.0)
+:Sending Touch (ACTION_UP): 0:(401.59076,1502.8525)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(321.0,991.0)
+:Sending Touch (ACTION_UP): 0:(307.358,1007.06396)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(590.0,1840.0)
+:Sending Touch (ACTION_UP): 0:(608.123,1831.4016)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(294.0,690.0)
+:Sending Touch (ACTION_UP): 0:(302.11307,685.444)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(760.0,636.0)
+:Sending Touch (ACTION_UP): 0:(759.77997,642.09894)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(851.0,1122.0)
+:Sending Touch (ACTION_UP): 0:(853.56274,1130.6978)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(490.0,107.0)
+:Sending Touch (ACTION_UP): 0:(490.76263,103.881454)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(216.0,594.0)
+:Sending Touch (ACTION_UP): 0:(217.28459,597.19324)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(781.0,916.0)
+:Sending Touch (ACTION_UP): 0:(775.548,916.0019)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(243.0,30.0)
+:Sending Touch (ACTION_UP): 0:(248.51146,29.49497)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(141.0,769.0)
+:Sending Touch (ACTION_UP): 0:(162.46416,764.76746)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(760.0,591.0)
+:Sending Touch (ACTION_MOVE): 0:(750.44415,589.3125)
+:Sending Touch (ACTION_MOVE): 0:(739.1303,588.92847)
+:Sending Touch (ACTION_MOVE): 0:(725.7354,588.37036)
+:Sending Touch (ACTION_UP): 0:(719.884,586.8488)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(677.0,689.0)
+:Sending Touch (ACTION_MOVE): 0:(684.6339,671.5596)
+:Sending Touch (ACTION_MOVE): 0:(691.0528,659.6635)
+:Sending Touch (ACTION_MOVE): 0:(697.3082,645.754)
+:Sending Touch (ACTION_MOVE): 0:(697.5505,631.33905)
+:Sending Touch (ACTION_UP): 0:(706.5787,621.68427)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(167.0,1341.0)
+:Sending Touch (ACTION_MOVE): 0:(170.1946,1349.2632)
+:Sending Touch (ACTION_MOVE): 0:(175.95807,1360.7897)
+:Sending Touch (ACTION_MOVE): 0:(187.02927,1374.5482)
+:Sending Touch (ACTION_MOVE): 0:(192.36075,1386.6147)
+:Sending Touch (ACTION_MOVE): 0:(193.93295,1391.2539)
+:Sending Touch (ACTION_MOVE): 0:(202.02422,1402.5928)
+:Sending Touch (ACTION_MOVE): 0:(206.89641,1417.6566)
+:Sending Touch (ACTION_MOVE): 0:(217.6778,1423.9381)
+:Sending Touch (ACTION_UP): 0:(227.12778,1431.124)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(599.0,460.0)
+:Sending Touch (ACTION_UP): 0:(601.0782,457.359)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(76.0,1558.0)
+:Sending Touch (ACTION_UP): 0:(76.76116,1557.0776)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(23.0,408.0)
+:Sending Touch (ACTION_UP): 0:(13.957893,404.56906)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(972.0,1209.0)
+:Sending Touch (ACTION_UP): 0:(973.52325,1200.5917)
+    //[calendar_time:2018-07-20 17:30:46.333  system_uptime:28585187]
+    // Sending event #800
+Sleeping for 300 milliseconds
+    //[calendar_time:2018-07-20 17:30:46.637  system_uptime:28585490]
+    // Sending event #800
+:Sending Touch (ACTION_DOWN): 0:(115.0,106.0)
+:Sending Touch (ACTION_UP): 0:(110.790436,110.322716)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1073.0,13.0)
+:Sending Touch (ACTION_UP): 0:(1078.0569,0.0)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(159.0,1891.0)
+:Sending Touch (ACTION_UP): 0:(163.63612,1909.7103)
+Sleeping for 300 milliseconds
+    // activityResuming(com.jieshun.jslife)
+:Sending Touch (ACTION_DOWN): 0:(43.0,1413.0)
+:Sending Touch (ACTION_UP): 0:(43.121574,1413.0859)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=com.jieshun.jslife/.activity.userinfo.ConsumeOrderDetailActivity } in package com.jieshun.jslife
+:Sending Touch (ACTION_DOWN): 0:(392.0,1154.0)
+:Sending Touch (ACTION_UP): 0:(390.31082,1141.4779)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(697.0,595.0)
+:Sending Touch (ACTION_UP): 0:(689.48596,599.46747)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(539.0,1583.0)
+:Sending Touch (ACTION_UP): 0:(534.11847,1580.4899)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(630.0,1773.0)
+:Sending Touch (ACTION_UP): 0:(629.1035,1770.6799)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(668.0,782.0)
+:Sending Touch (ACTION_MOVE): 0:(662.8313,789.15155)
+:Sending Touch (ACTION_MOVE): 0:(657.9338,790.0754)
+:Sending Touch (ACTION_MOVE): 0:(645.68933,790.2436)
+:Sending Touch (ACTION_MOVE): 0:(640.0967,796.8393)
+:Sending Touch (ACTION_UP): 0:(627.7353,804.08307)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(928.0,232.0)
+:Sending Touch (ACTION_UP): 0:(933.7837,232.84291)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(631.0,97.0)
+:Sending Touch (ACTION_UP): 0:(622.5521,98.3195)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(565.0,1769.0)
+:Sending Touch (ACTION_MOVE): 0:(568.45044,1784.0632)
+:Sending Touch (ACTION_UP): 0:(569.20154,1786.7802)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(807.0,255.0)
+:Sending Touch (ACTION_UP): 0:(802.333,261.79816)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(577.0,1258.0)
+:Sending Touch (ACTION_UP): 0:(582.89404,1255.1476)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(612.0,1419.0)
+:Sending Touch (ACTION_UP): 0:(599.76904,1425.8853)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(228.0,1211.0)
+:Sending Touch (ACTION_UP): 0:(238.9407,1212.5278)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(394.0,490.0)
+:Sending Touch (ACTION_UP): 0:(391.39136,498.90842)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(106.0,208.0)
+:Sending Touch (ACTION_UP): 0:(99.47658,192.28004)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(918.0,1429.0)
+:Sending Touch (ACTION_UP): 0:(918.3843,1435.2906)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(650.0,967.0)
+:Sending Touch (ACTION_UP): 0:(649.75586,951.04956)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.CALL dat=tel:xxxxxxxxxx cmp=com.android.server.telecom/.CallActivity } in package com.android.server.telecom
+:Sending Touch (ACTION_DOWN): 0:(638.0,1082.0)
+:Sending Touch (ACTION_UP): 0:(621.6741,1081.3789)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(328.0,1745.0)
+:Sending Touch (ACTION_UP): 0:(330.1268,1742.8248)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(958.0,1474.0)
+:Sending Touch (ACTION_UP): 0:(951.07086,1480.1233)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(726.0,222.0)
+:Sending Touch (ACTION_UP): 0:(726.8621,223.16232)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(681.0,1342.0)
+:Sending Touch (ACTION_UP): 0:(681.1742,1338.956)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(221.0,155.0)
+:Sending Touch (ACTION_UP): 0:(224.75417,164.27844)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1.0,49.0)
+:Sending Touch (ACTION_UP): 0:(20.62361,47.742737)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(316.0,1838.0)
+:Sending Touch (ACTION_UP): 0:(304.3454,1839.4049)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(411.0,1103.0)
+:Sending Touch (ACTION_UP): 0:(406.05948,1093.2004)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(267.0,1310.0)
+    //[calendar_time:2018-07-20 17:30:57.804  system_uptime:28596658]
+    // Sending event #900
+:Sending Touch (ACTION_UP): 0:(270.0564,1310.6066)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(822.0,1830.0)
+:Sending Touch (ACTION_UP): 0:(806.4487,1827.2491)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(516.0,561.0)
+:Sending Touch (ACTION_UP): 0:(508.83224,556.42584)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(118.0,476.0)
+:Sending Touch (ACTION_UP): 0:(104.94275,490.26184)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(848.0,1198.0)
+:Sending Touch (ACTION_UP): 0:(849.97565,1176.1149)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(458.0,1598.0)
+:Sending Touch (ACTION_UP): 0:(458.27728,1598.2262)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(723.0,1906.0)
+:Sending Touch (ACTION_UP): 0:(720.53125,1906.6971)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(159.0,65.0)
+:Sending Touch (ACTION_MOVE): 0:(164.58049,67.2951)
+:Sending Touch (ACTION_MOVE): 0:(175.14684,71.123955)
+:Sending Touch (ACTION_MOVE): 0:(181.547,72.99147)
+:Sending Touch (ACTION_UP): 0:(187.09953,75.3243)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(895.0,476.0)
+:Sending Touch (ACTION_UP): 0:(890.9781,495.6634)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(215.0,1683.0)
+:Sending Touch (ACTION_UP): 0:(214.16089,1670.1279)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(497.0,1731.0)
+:Sending Touch (ACTION_UP): 0:(493.98788,1723.8656)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(482.0,566.0)
+:Sending Touch (ACTION_UP): 0:(478.75018,549.1122)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(608.0,1174.0)
+:Sending Touch (ACTION_UP): 0:(607.9081,1174.1366)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(940.0,1371.0)
+:Sending Touch (ACTION_UP): 0:(939.222,1366.0538)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(960.0,657.0)
+:Sending Touch (ACTION_UP): 0:(960.0227,659.0037)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(43.0,1833.0)
+:Sending Touch (ACTION_UP): 0:(34.46229,1832.559)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(583.0,1217.0)
+:Sending Touch (ACTION_UP): 0:(589.0067,1216.2017)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(344.0,1678.0)
+:Sending Touch (ACTION_UP): 0:(353.76685,1682.4381)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(584.0,1478.0)
+:Sending Touch (ACTION_UP): 0:(589.1364,1454.4137)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(410.0,1194.0)
+:Sending Touch (ACTION_UP): 0:(410.11932,1205.5709)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(185.0,53.0)
+:Sending Touch (ACTION_UP): 0:(184.97115,55.23955)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(245.0,1513.0)
+:Sending Touch (ACTION_UP): 0:(259.3832,1518.0612)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(394.0,89.0)
+:Sending Touch (ACTION_UP): 0:(401.7053,94.16072)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(182.0,1446.0)
+:Sending Touch (ACTION_UP): 0:(174.76729,1452.6454)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(430.0,245.0)
+Events injected: 1000
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=8 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=113606ms (0ms mobile, 0ms wifi, 113606ms not connected)
+// Monkey finished

@@ -1,0 +1,96 @@
+  bash arg: -p
+  bash arg: com.jieshun.jslife
+  bash arg: -s
+  bash arg: 728
+  bash arg: --throttle
+  bash arg: 300
+  bash arg: --ignore-crashes
+  bash arg: --ignore-timeouts
+  bash arg: --pct-touch
+  bash arg: 80
+  bash arg: --pct-trackball
+  bash arg: 5
+  bash arg: --pct-appswitch
+  bash arg: 5
+  bash arg: --pct-syskeys
+  bash arg: 5
+  bash arg: --pct-motion
+  bash arg: 5
+  bash arg: -v
+  bash arg: -v
+  bash arg: 1000
+:Monkey: seed=728 count=1000
+:AllowPackage: com.jieshun.jslife
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   + Using main activity com.jieshun.jslife.activity.common.WelcomeActivity (from package com.jieshun.jslife)
+// Selecting main activities from category android.intent.category.MONKEY
+// Seeded: 728
+// Event percentages:
+//   0: 80.0%
+//   1: 5.0%
+//   2: 0.0%
+//   3: 5.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 0.0%
+//   7: 0.0%
+//   8: 5.0%
+//   9: 5.0%
+//   10: 0.0%
+//   11: 0.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(868.0,1341.0)
+:Sending Touch (ACTION_UP): 0:(870.57306,1334.8495)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+:Sending Touch (ACTION_DOWN): 0:(200.0,1099.0)
+:Sending Touch (ACTION_UP): 0:(198.78654,1103.22)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(465.0,1193.0)
+:Sending Touch (ACTION_UP): 0:(463.98184,1176.352)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(197.0,353.0)
+:Sending Touch (ACTION_UP): 0:(207.9246,353.05118)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(899.0,895.0)
+:Sending Touch (ACTION_UP): 0:(898.5072,897.9852)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(856.0,1449.0)
+:Sending Touch (ACTION_UP): 0:(837.03436,1456.0837)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(725.0,411.0)
+:Sending Touch (ACTION_UP): 0:(720.12225,398.15778)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(181.0,421.0)
+:Sending Touch (ACTION_UP): 0:(182.07695,422.84326)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(59.0,1098.0)
+:Sending Touch (ACTION_UP): 0:(60.45362,1120.8922)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(338.0,854.0)
+:Sending Touch (ACTION_MOVE): 0:(329.1645,835.3445)
+:Sending Touch (ACTION_MOVE): 0:(328.07635,823.5222)
+:Sending Touch (ACTION_MOVE): 0:(327.73404,812.38574)
+:Sending Touch (ACTION_UP): 0:(318.1989,795.5581)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+:Sending Touch (ACTION_DOWN): 0:(201.0,74.0)
+:Sending Touch (ACTION_UP): 0:(185.76608,74.83114)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+:Sending Touch (ACTION_DOWN): 0:(113.0,488.0)
+:Sending Touch (ACTION_UP): 0:(110.131424,485.47647)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(906.0,482.0)
+:Sending Touch (ACTION_UP): 0:(905.5668,481.97937)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(266.0,1122.0)
+:Sending Touch (ACTION_UP): 0:(250.11037,1103.4661)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(415.0,972.0)
+:Sending Touch (ACTION_UP): 0:(409.5814,975.6265)
+Sleeping for 300 milliseconds

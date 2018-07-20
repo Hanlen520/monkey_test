@@ -1,0 +1,38 @@
+:Monkey: seed=249 count=500
+:AllowPackage: com.jieshun.jslife
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   + Using main activity com.jieshun.jslife.activity.common.WelcomeActivity (from package com.jieshun.jslife)
+// Selecting main activities from category android.intent.category.MONKEY
+// Seeded: 249
+// Event percentages:
+//   0: 80.0%
+//   1: 5.0%
+//   2: 0.0%
+//   3: 5.0%
+//   4: -0.0%
+//   5: 0.0%
+//   6: 0.0%
+//   7: 5.0%
+//   8: 5.0%
+//   9: 0.0%
+//   10: 0.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(399.0,1856.0)
+:Sending Touch (ACTION_UP): 0:(398.78375,1878.093)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(795.0,1320.0)
+:Sending Touch (ACTION_UP): 0:(789.85156,1331.9364)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(955.0,1251.0)
+:Sending Touch (ACTION_UP): 0:(944.92847,1231.0399)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(828.0,967.0)
+:Sending Touch (ACTION_UP): 0:(833.3924,961.39215)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(814.0,844.0)
+:Sending Touch (ACTION_UP): 0:(811.49194,842.74615)
+Sleeping for 300 milliseconds

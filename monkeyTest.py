@@ -11,7 +11,7 @@ from Base.Config import Config
 from Base import BasePhoneMsg
 from Base import BaseMonitor
 import threading
-
+from Base.BaseEmail import sendEmail
 
 #PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p)) #报错：name '__file__' is not defined，os.path.dirname(path) 返回文件路径
 #修改为：
@@ -213,6 +213,7 @@ class MonkeyThread(threading.Thread):
     def run(self):
         time.sleep(2)
         start(self.dev)
+        sendEmail()
 
 def create_threads_monkey(device_list):
     thread_instances = []
@@ -225,6 +226,29 @@ def create_threads_monkey(device_list):
             instance.start()
 
 if __name__ == '__main__':
+
+    # bananer
+    ASCIIART = r'''
+    *******Welcome to use  monkey test!*******
+                         _
+                       ,//)
+                       ) /
+                      / /
+                _,^^,/ /
+               (G,66<_/
+               _/\_,_)    _
+              / _    \  ,' )
+             / /"\    \/  ,_\
+          __(,/   >  e ) / (_\.oO
+          \_ /   (   -,_/    \_/
+            U     \_, _)
+                   (  /
+                    >/
+                   (.oO
+    *******Welcome to use  monkey test!*******
+            '''
+    print(ASCIIART)
+
     device_dir = os.path.exists(Config.info_path)
     if device_dir:
         print("持久性目录info已存在，继续执行测试!")
@@ -233,5 +257,7 @@ if __name__ == '__main__':
     device_list = BaseMonitor.get_devices()
     if ba.attached_devices():
         create_threads_monkey(device_list)
+
+
     else:
         print("设备不存在")

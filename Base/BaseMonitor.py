@@ -139,8 +139,12 @@ def get_pid(pkg_name,dev):
     pid = subprocess.Popen("adb -s " + dev + " shell ps | findstr " + pkg_name, shell=True, stdout=subprocess.PIPE,
                            stderr=subprocess.PIPE).stdout.readlines()
     for item in pid:
-        if item.split()[8].decode() == pkg_name:
-            return item.split()[1].decode()
+        try:
+            if item.split()[8].decode() == pkg_name:
+                return item.split()[1].decode()
+        except IndexError as e:
+            if item.split()[7].decode() == pkg_name:
+                return item.split()[1].decode()
 
 def get_flow(pid, type, dev):
     # pid = get_pid(pkg_name)

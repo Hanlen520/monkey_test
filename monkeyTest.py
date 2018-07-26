@@ -12,6 +12,7 @@ from Base import BasePhoneMsg
 from Base import BaseMonitor
 import threading
 from Base.BaseEmail import sendEmail
+from multiprocessing import Pool
 
 #PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p)) #报错：name '__file__' is not defined，os.path.dirname(path) 返回文件路径
 #修改为：
@@ -213,7 +214,7 @@ class MonkeyThread(threading.Thread):
     def run(self):
         time.sleep(2)
         start(self.dev)
-        sendEmail()
+
 
 def create_threads_monkey(device_list):
     thread_instances = []
@@ -256,7 +257,15 @@ if __name__ == '__main__':
         os.mkdir(Config.info_path)  # 创建持久性目录
     device_list = BaseMonitor.get_devices()
     if ba.attached_devices():
-        create_threads_monkey(device_list)
+        # 多进程方式实现
+        pool = Pool(len(device_list))
+        pool.map(start, device_list)
+        pool.close()
+        pool.join()
+        sendEmail()
+
+        #多线程实现方式
+        #create_threads_monkey(device_list)
 
 
     else:

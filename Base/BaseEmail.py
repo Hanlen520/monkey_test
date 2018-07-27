@@ -5,7 +5,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
-
+from Base.Config import Config
 
 class Mailer(object):
     def __init__(self, maillist, mailtitle, mailcontent):
@@ -13,10 +13,10 @@ class Mailer(object):
         self.mail_title = mailtitle
         self.mail_content = mailcontent
 
-        self.mail_host = "smtp.qq.com"
-        self.mail_user = "84028058"
-        self.mail_pass = "lgvyjlhlzbrubhab"
-        self.mail_postfix = "qq.com"
+        self.mail_host = Config.mail_host
+        self.mail_user = Config.mail_user
+        self.mail_pass = Config.mail_pass
+        self.mail_postfix = Config.mail_postfix
 
     def sendMail(self):
 
@@ -36,8 +36,8 @@ class Mailer(object):
         #msg.attach(jpgpart)
 
         # 首先是xlsx类型的附件
-        xlsxpart = MIMEApplication(open('performance_report.xlsx', 'rb').read())
-        xlsxpart.add_header('Content-Disposition', 'attachment', filename='performance_report.xlsx')
+        xlsxpart = MIMEApplication(open(Config.attach_name, 'rb').read())
+        xlsxpart.add_header('Content-Disposition', 'attachment', filename=Config.attach_name)
         msg.attach(xlsxpart)
 
         # mp3类型的附件
@@ -62,9 +62,9 @@ class Mailer(object):
             return False
 def sendEmail():
     # send list
-    mailto_list = ["guobiao.hu@jieshun.cn"]
-    mail_title = 'Monkey测试'
-    mail_content = '-------->>Monkey测试<<--------'
+    mailto_list = Config.email_address
+    mail_title = Config.email_subject
+    mail_content = Config.email_content
     mm = Mailer(mailto_list, mail_title, mail_content)
     res = mm.sendMail()
     print('发送完成！')

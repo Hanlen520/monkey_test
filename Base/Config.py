@@ -21,4 +21,12 @@ class Config:
     #性能数据存储目录
     info_path = conf.get("monkey","info_path")
 
+    email_address = conf.get("monkey","email_address").split(",")
+    email_subject = conf.get("monkey", "email_subject")
+    email_content = conf.get("monkey", "email_content")
+    attach_name = conf.get("monkey", "attach_name")
 
+    mail_host = conf.get("monkey","mail_host")
+    mail_user = conf.get("monkey","mail_user")
+    mail_pass = conf.get("monkey","mail_pass")
+    mail_postfix = conf.get("monkey","mail_postfix")

@@ -1,6 +1,7 @@
 
 import os
-
+import stat
+import shutil
 '''
 操作文件
 '''
@@ -54,3 +55,14 @@ class OperateFile:
             print("删除文件成功")
         else:
             print("文件不存在")
+
+    def delete_file(filePath):
+        if os.path.exists(filePath):
+            for fileList in os.walk(filePath):
+                for name in fileList[2]:
+                    os.chmod(os.path.join(fileList[0], name), stat.S_IWRITE)
+                    os.remove(os.path.join(fileList[0], name))
+            shutil.rmtree(filePath)
+            return "delete ok"
+        else:
+            return "no filepath"

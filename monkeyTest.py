@@ -14,6 +14,7 @@ import threading
 from Base.BaseEmail import sendEmail
 from multiprocessing import Pool
 
+
 #PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p)) #报错：name '__file__' is not defined，os.path.dirname(path) 返回文件路径
 #修改为：
 PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(os.path.realpath('__file__')), p)) #os.path.realpath(path)  返回path的真实路径
@@ -252,8 +253,8 @@ if __name__ == '__main__':
 
     device_dir = os.path.exists(Config.info_path)
     if device_dir:
-        print("持久性目录info已存在，继续执行测试!")
-    else:
+        print("持久性目录info已存在,删除重新创建目录，继续执行测试!")
+        OperateFile.delete_file(Config.info_path)
         os.mkdir(Config.info_path)  # 创建持久性目录
     device_list = BaseMonitor.get_devices()
     if ba.attached_devices():
@@ -265,7 +266,7 @@ if __name__ == '__main__':
         sendEmail()
 
         #多线程实现方式
-        #create_threads_monkey(device_list)
+        # create_threads_monkey(device_list)
 
 
     else:

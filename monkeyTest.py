@@ -255,7 +255,7 @@ if __name__ == '__main__':
     if device_dir:
         print("持久性目录info已存在,删除重新创建目录，继续执行测试!")
         OperateFile.delete_file(Config.info_path)
-        os.mkdir(Config.info_path)  # 创建持久性目录
+    os.mkdir(Config.info_path)  # 创建持久性目录
     device_list = BaseMonitor.get_devices()
     if ba.attached_devices():
         # 多进程方式实现

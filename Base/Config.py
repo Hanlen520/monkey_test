@@ -21,4 +21,4 @@ class Config:
     #性能数据存储目录
     info_path = conf.get("monkey","info_path")
 
-    print(info_path)
+

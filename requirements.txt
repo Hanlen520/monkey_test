@@ -1,0 +1,9 @@
+PyYAML
+XlsxWriter
+certifi
+chardet
+configparser
+idna
+requests
+setuptools
+urllib3

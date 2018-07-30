@@ -5,7 +5,7 @@ import configparser
 class Config:
 
     conf = configparser.ConfigParser()
-    conf.read("../config//config.ini","utf-8")
+    conf.read("config//config.ini","utf-8")
     # apk包名
     package_name = conf.get("monkey","package_name")
     # 默认设备列表
@@ -30,3 +30,6 @@ class Config:
     mail_user = conf.get("monkey","mail_user")
     mail_pass = conf.get("monkey","mail_pass")
     mail_postfix = conf.get("monkey","mail_postfix")
+
+if __name__ == '__main__':
+    print(Config.mail_postfix)

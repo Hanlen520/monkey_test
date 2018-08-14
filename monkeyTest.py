@@ -135,7 +135,7 @@ def start(dev):
 
     #Monkey测试部分，如果是进行monkey测试，去除该部分注释（line134~line191）并注掉手动测试部分(line72~line131)；另外BaseReport.py中line85，line120~line132注释也要去除
     print("--------------开始执行Monkey----------------")
-    path_log = Config.log_location + dev
+    path_log = os.path.abspath('.')+"\\log\\" + dev
     device_dir = os.path.exists(path_log)
     if device_dir:
         print("日志文件目录log已存在，继续执行测试!")
@@ -250,12 +250,12 @@ if __name__ == '__main__':
     *******Welcome to use  monkey test!*******
             '''
     print(ASCIIART)
-
-    device_dir = os.path.exists(Config.info_path)
+    info_path=os.path.abspath('.')+"\\info\\"
+    device_dir = os.path.exists(info_path)
     if device_dir:
         print("持久性目录info已存在,删除重新创建目录，继续执行测试!")
-        OperateFile.delete_file(Config.info_path)
-    os.mkdir(Config.info_path)  # 创建持久性目录
+        OperateFile.delete_file(info_path)
+    os.mkdir(info_path)  # 创建持久性目录
     device_list = BaseMonitor.get_devices()
     if ba.attached_devices():
         # 多进程方式实现

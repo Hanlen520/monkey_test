@@ -1,5 +1,6 @@
 # /usr/bin/env python
 # -*- encoding: utf-8 -*-
+import os
 import random
 import configparser
 class Config:
@@ -32,4 +33,5 @@ class Config:
     mail_postfix = conf.get("monkey","mail_postfix")
 
 if __name__ == '__main__':
+    print("-----------"+os.path.abspath('.'))
     print(Config.mail_postfix)

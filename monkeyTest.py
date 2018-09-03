@@ -204,7 +204,7 @@ def start(dev):
         report(readInfo(PATH("./info/info.pickle")))
         print("Kill adb server,test finished！")
         os.popen("taskkill /f /t /im adb.exe")
-        shutil.rmtree((PATH("./info/"))) # 删除持久化目录
+        #shutil.rmtree((PATH("./info/"))) # 删除持久化目录
 
 #多线程启动
 class MonkeyThread(threading.Thread):

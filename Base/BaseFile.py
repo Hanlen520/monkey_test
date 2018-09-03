@@ -66,3 +66,14 @@ class OperateFile:
             return "delete ok"
         else:
             return "no filepath"
+
+    def readTemplate(path):
+        with open(path, encoding='UTF-8') as f:
+            try:
+                data = f.read()
+            except EOFError:
+                data = False
+                print("读取文件错误")
+        # print("------read-------")
+        # print(data)
+        return data

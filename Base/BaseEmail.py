@@ -1,33 +1,39 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-
+import os
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
-from Base.Config import Config
+from Base.BasePickle import readInfo
+from Base.BaseFile import OperateFile
+import xlrd
 
+PATH = lambda p: os.path.abspath(
+    os.path.join(os.path.dirname(__file__), p)
+)
 class Mailer(object):
     def __init__(self, maillist, mailtitle, mailcontent):
         self.mail_list = maillist
         self.mail_title = mailtitle
         self.mail_content = mailcontent
 
-        self.mail_host = Config.mail_host
-        self.mail_user = Config.mail_user
-        self.mail_pass = Config.mail_pass
-        self.mail_postfix = Config.mail_postfix
+        self.mail_host = "smtp.qq.com"
+        self.mail_user = "84028058"
+        self.mail_pass = "lgvyjlhlzbrubhab"
+        self.mail_postfix = "qq.com"
 
+    @property
     def sendMail(self):
 
         me = self.mail_user + "<" + self.mail_user + "@" + self.mail_postfix + ">"
         msg = MIMEMultipart()
-        msg['Subject'] = 'Monkey 测试'
+        msg['Subject'] = 'appium测试报告'
         msg['From'] = me
         msg['To'] = ";".join(self.mail_list)
 
-        # puretext = MIMEText('<h1>你好，<br/>'+self.mail_content+'</h1>','html','utf-8')
-        puretext = MIMEText(self.mail_content)
+        puretext = MIMEText(str(self.mail_content),'html','utf-8')
+        #puretext = MIMEText(self.mail_content)
         msg.attach(puretext)
 
         # jpg类型的附件
@@ -36,8 +42,8 @@ class Mailer(object):
         #msg.attach(jpgpart)
 
         # 首先是xlsx类型的附件
-        xlsxpart = MIMEApplication(open(Config.attach_name, 'rb').read())
-        xlsxpart.add_header('Content-Disposition', 'attachment', filename=Config.attach_name)
+        xlsxpart = MIMEApplication(open('../performance_report.xlsx', 'rb').read())
+        xlsxpart.add_header('Content-Disposition', 'attachment', filename="performance_report.xlsx")
         msg.attach(xlsxpart)
 
         # mp3类型的附件
@@ -61,20 +67,58 @@ class Mailer(object):
             print(str(e))
             return False
 def sendEmail():
-    # send list
-    mailto_list = Config.email_address
-    mail_title = Config.email_subject
-    mail_content = Config.email_content
-    mm = Mailer(mailto_list, mail_title, mail_content)
-    res = mm.sendMail()
-    print('发送完成！')
+
+    #读取模板
+    mail_content = OperateFile.readTemplate(PATH("../result.html"))
+    # 读取结果数据
+    # 生成每种机型Monkey性能测试表
+    result="<tr>"
+
+
+    workbook = xlrd.open_workbook("D:\monkey_test\performance_report.xlsx")
+    for item in workbook.sheet_by_name("性能数据详情")._cell_values[2]:
+        result=result+"<td>"+item+"</td>"
+    result=result+"</tr>"
+
+    crash=""
+    for item in workbook.sheet_by_name("崩溃日志")._cell_values:
+        crash=crash+"<br/>"+item
+
+
+    mail_content = mail_content.replace("$testResult", result)
+    mail_content = mail_content.replace("$crashLog", crash)
+    mm = Mailer("guobiao.hu@jieshun.cn", "Monkey稳定性测报告", mail_content)
+    res = mm.sendMail
+    if res:
+        print('--------->>邮件发送成功！')
+    else:
+        print('--------->>邮件发送失败！')
 
 
 if __name__ == '__main__':
-    # send list
-    mailto_list = ["guobiao.hu@jieshun.cn", "zhandong.han@jieshun.cn"]
-    mail_title = 'Monkey测试'
-    mail_content = '-------->>Monkey测试<<--------'
-    mm = Mailer(mailto_list, mail_title, mail_content)
-    res = mm.sendMail()
-    print(res)
+
+    #读取模板
+    mail_content = OperateFile.readTemplate(PATH("../result.html"))
+    # 读取结果数据
+    # 生成每种机型Monkey性能测试表
+    result="<tr>"
+
+
+    workbook = xlrd.open_workbook("D:\monkey_test\performance_report.xlsx")
+    for item in workbook.sheet_by_name("性能数据详情")._cell_values[2]:
+        result=result+"<td>"+str(item)+"</td>"
+    result=result+"</tr>"
+
+    crash=""
+    for item in workbook.sheet_by_name("崩溃日志")._cell_values:
+        crash=crash+"<br/>"+item[0]
+
+
+    mail_content = mail_content.replace("$testResult", result)
+    mail_content = mail_content.replace("$crashLog", crash)
+    mm = Mailer("guobiao.hu@jieshun.cn", "Monkey稳定性测报告", mail_content)
+    res = mm.sendMail
+    if res:
+        print('--------->>邮件发送成功！')
+    else:
+        print('--------->>邮件发送失败！')

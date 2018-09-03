@@ -82,12 +82,12 @@ def writeFlowInfo(upflow, downflow, path="data.pickle"):
         pickle.dump(result, f)
 
 
-#if __name__ == "__main__":
+if __name__ == "__main__":
     # readInfo(PATH("../info/DU2TAN15AJ049163_battery.pickle"))
     # readInfo(PATH("../info/emulator-5554_fps.pickle"))
-    # readInfo(PATH("../info/emulator-5554_battery.pickle"))
+    readInfo(PATH("../info/810EBME4DAN4_battery.pickle"))
     # readInfo(PATH("../info/emulator-5554_men.pickle"))
-    # readInfo(PATH("../info/DU2TAN15AJ049163_men.pickle"))
+    # readInfo(PATH("../info/810EBME4DAN4_men.pickle"))
     # readInfo(PATH("../info/emulator-5554_flow.pickle"))
-    #readInfo("E:\\app\\py\\monkey1\\info\\info.pickle")
+    #readInfo(PATH("../info/sumInfo.pickle"))
     # readInfo(PATH("../info/DU2TAN15AJ049163_cpu.pickle"))

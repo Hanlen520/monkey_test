@@ -1,7 +1,7 @@
 import os
 import xlsxwriter
 from Base import BaseReport
-import time
+import xlrd
 
 
 PATH = lambda p: os.path.abspath(
@@ -18,3 +18,13 @@ def report(info):
     bo.crash()
     bo.analysis(info)
     bo.close()
+
+def readExcel():
+    workbook = xlrd.open_workbook("D:\monkey_test\performance_report.xlsx")
+    for item in workbook.sheet_by_name("性能数据详情")._cell_values[2]:
+        print(item)
+    # for item in workbook.sheet_by_name("崩溃日志")._cell_values:
+    #     print(item)
+
+if __name__=="__main__":
+    readExcel()

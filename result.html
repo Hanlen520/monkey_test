@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="sky">
+  <meta name="Keywords" content="appiumAutoTest">
+  <meta name="Description" content="testReport">
+  <title>Document</title>
+    <!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<style type="text/css">
+table.gridtable {
+    font-family: verdana,arial,sans-serif;
+    font-size:13px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+}
+table.gridtable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+table.gridtable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
+</style>
+ </head>
+ <body>
+
+
+<!-- Table goes in the document BODY -->
+<h2>Monkey-TestReport(测试与质量保证部):</h2>
+
+<h3>monkey性能监控：</h3>
+<table name="result" class="gridtable">
+<tr>
+    <th>设备名</th><th>CPU</th><th>内存</th><th>分辨率</th><th>网络</th><th>耗时</th><th>CPU峰值</th><th>CPU均值</th><th>内存峰值</th><th>内存均值</th><th>fps峰值</th><th>fps均值</th><th>电量测试之前</th><th>电量测试之后</th><th>上行流量峰值</th><th>上行流量均值</th><th>下行流量峰值</th><th>下行流量均值</th>
+</tr>
+<!-- 动态生结果后替换 -->
+	$testResult
+</table>
+<h3>崩溃日志：</h3>
+<p>$crashLog </p>
+ </body>
+</html>

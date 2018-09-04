@@ -3,10 +3,14 @@
 import os
 import random
 import configparser
+PATH = lambda p: os.path.abspath(
+    os.path.join(os.path.dirname(__file__), p)
+)
+
 class Config:
 
     conf = configparser.ConfigParser()
-    conf.read("config//config.ini","utf-8")
+    conf.read(PATH("../config/config.ini"),"utf-8")
     # apk包名
     package_name = conf.get("monkey","package_name")
     # 默认设备列表

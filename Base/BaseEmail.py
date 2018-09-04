@@ -28,7 +28,7 @@ class Mailer(object):
 
         me = self.mail_user + "<" + self.mail_user + "@" + self.mail_postfix + ">"
         msg = MIMEMultipart()
-        msg['Subject'] = 'appium测试报告'
+        msg['Subject'] = 'Monkey测试报告'
         msg['From'] = me
         msg['To'] = ";".join(self.mail_list)
 
@@ -42,7 +42,7 @@ class Mailer(object):
         #msg.attach(jpgpart)
 
         # 首先是xlsx类型的附件
-        xlsxpart = MIMEApplication(open('../performance_report.xlsx', 'rb').read())
+        xlsxpart = MIMEApplication(open(PATH("../performance_report.xlsx"), 'rb').read())
         xlsxpart.add_header('Content-Disposition', 'attachment', filename="performance_report.xlsx")
         msg.attach(xlsxpart)
 
@@ -72,17 +72,23 @@ def sendEmail():
     mail_content = OperateFile.readTemplate(PATH("../result.html"))
     # 读取结果数据
     # 生成每种机型Monkey性能测试表
-    result="<tr>"
 
+    workbook = xlrd.open_workbook(PATH("../performance_report.xlsx"))
+    result=""
+    for i in range(2,workbook.sheet_by_name("性能数据详情")._cell_values.__len__()):
+        result = result+"<tr>"
+        for item in workbook.sheet_by_name("性能数据详情")._cell_values[i]:
+            result=result+"<td>"+str(item)+"</td>"
 
-    workbook = xlrd.open_workbook("D:\monkey_test\performance_report.xlsx")
-    for item in workbook.sheet_by_name("性能数据详情")._cell_values[2]:
-        result=result+"<td>"+item+"</td>"
-    result=result+"</tr>"
-
+        result=result+"</tr>"
+    print(result)
     crash=""
-    for item in workbook.sheet_by_name("崩溃日志")._cell_values:
-        crash=crash+"<br/>"+item
+
+    try:
+        for item in workbook.sheet_by_name("崩溃日志")._cell_values:
+            crash=crash+"<br/>"+item[0]
+    except Exception as e:
+        crash="本次测试未出现崩溃现象！"
 
 
     mail_content = mail_content.replace("$testResult", result)
@@ -96,29 +102,4 @@ def sendEmail():
 
 
 if __name__ == '__main__':
-
-    #读取模板
-    mail_content = OperateFile.readTemplate(PATH("../result.html"))
-    # 读取结果数据
-    # 生成每种机型Monkey性能测试表
-    result="<tr>"
-
-
-    workbook = xlrd.open_workbook("D:\monkey_test\performance_report.xlsx")
-    for item in workbook.sheet_by_name("性能数据详情")._cell_values[2]:
-        result=result+"<td>"+str(item)+"</td>"
-    result=result+"</tr>"
-
-    crash=""
-    for item in workbook.sheet_by_name("崩溃日志")._cell_values:
-        crash=crash+"<br/>"+item[0]
-
-
-    mail_content = mail_content.replace("$testResult", result)
-    mail_content = mail_content.replace("$crashLog", crash)
-    mm = Mailer("guobiao.hu@jieshun.cn", "Monkey稳定性测报告", mail_content)
-    res = mm.sendMail
-    if res:
-        print('--------->>邮件发送成功！')
-    else:
-        print('--------->>邮件发送失败！')
+    sendEmail()

@@ -1,0 +1,167 @@
+:Monkey: seed=795 count=100
+:AllowPackage: com.jieshun.jslife
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   + Using main activity com.jieshun.jslife.activity.common.WelcomeActivity (from package com.jieshun.jslife)
+// Selecting main activities from category android.intent.category.MONKEY
+// Seeded: 795
+// Event percentages:
+//   0: 60.0%
+//   1: 13.0%
+//   2: 0.0%
+//   3: 12.0%
+//   4: -0.0%
+//   5: 0.0%
+//   6: 0.0%
+//   7: 10.0%
+//   8: 5.0%
+//   9: 0.0%
+//   10: 0.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(411.0,375.0)
+:Sending Touch (ACTION_UP): 0:(411.03406,395.2652)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=com.jieshun.jslife/.activity.minicommunity.report.RepairReportListActivity } in package com.jieshun.jslife
+:Sending Touch (ACTION_DOWN): 0:(56.0,753.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(57.306362,743.30334)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(383.0,252.0)
+:Sending Touch (ACTION_UP): 0:(392.5455,233.61311)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(469.0,1045.0)
+:Sending Touch (ACTION_UP): 0:(470.54633,1044.1602)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher3/.Launcher } in package com.android.launcher3
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(48.0,281.0)
+:Sending Touch (ACTION_MOVE): 0:(57.667473,289.25778)
+:Sending Touch (ACTION_MOVE): 0:(77.26011,303.32306)
+:Sending Touch (ACTION_UP): 0:(96.59383,303.8045)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(494.0,399.0)
+:Sending Touch (ACTION_UP): 0:(486.3563,403.94498)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 300 milliseconds
+    // activityResuming(com.jieshun.jslife)
+:Sending Touch (ACTION_DOWN): 0:(87.0,699.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(76.41809,705.3182)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(265.0,1185.0)
+:Sending Touch (ACTION_UP): 0:(262.4428,1181.4092)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(44.0,637.0)
+:Sending Touch (ACTION_MOVE): 0:(52.851383,644.3968)
+:Sending Touch (ACTION_MOVE): 0:(69.94616,658.13837)
+:Sending Touch (ACTION_UP): 0:(83.16358,672.2321)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(264.0,903.0)
+:Sending Touch (ACTION_UP): 0:(253.40714,886.19476)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(505.0,704.0)
+:Sending Touch (ACTION_UP): 0:(507.15082,708.8957)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(257.0,516.0)
+:Sending Touch (ACTION_UP): 0:(258.96448,523.1661)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(27.0,874.0)
+:Sending Touch (ACTION_UP): 0:(30.54878,882.21375)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=com.jieshun.jslife/.activity.userinfo.OpinionFeedbackActivity } in package com.jieshun.jslife
+:Sending Touch (ACTION_DOWN): 0:(72.0,479.0)
+:Sending Touch (ACTION_UP): 0:(66.02387,492.34308)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(277.0,646.0)
+:Sending Touch (ACTION_UP): 0:(269.38376,642.52893)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(181.0,1154.0)
+:Sending Touch (ACTION_UP): 0:(182.0784,1161.6471)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(66.0,1128.0)
+:Sending Touch (ACTION_UP): 0:(71.84722,1130.3485)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(541.0,839.0)
+:Sending Touch (ACTION_UP): 0:(538.98755,841.76544)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(597.0,902.0)
+:Sending Touch (ACTION_UP): 0:(612.3273,895.6602)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(372.0,752.0)
+:Sending Touch (ACTION_UP): 0:(359.54825,762.56445)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(527.0,244.0)
+:Sending Touch (ACTION_UP): 0:(525.95605,252.95425)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(404.0,1124.0)
+:Sending Touch (ACTION_UP): 0:(401.54675,1103.4305)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(100.0,1028.0)
+:Sending Touch (ACTION_UP): 0:(104.300415,1024.4056)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(63.0,511.0)
+:Sending Touch (ACTION_UP): 0:(66.3125,496.61523)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(711.0,523.0)
+:Sending Touch (ACTION_UP): 0:(717.49426,520.94543)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jieshun.jslife/.activity.common.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jieshun.jslife/.activity.common.WelcomeActivity } in package com.jieshun.jslife
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(563.0,1176.0)
+:Sending Touch (ACTION_MOVE): 0:(556.17017,1155.9082)
+:Sending Touch (ACTION_MOVE): 0:(546.76465,1140.5529)
+:Sending Touch (ACTION_MOVE): 0:(537.3258,1132.887)
+Events injected: 100
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=4 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=9960ms (0ms mobile, 0ms wifi, 9960ms not connected)
+// Monkey finished
